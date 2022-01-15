@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to my Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="./StyleSheet2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script>
+        function disableClick() {
+            document.onclick = function (event) {
+                if (event.button == 2) {
+                    alert('Right Click Message');
+                    return false;
+                }
+            
+            }
+        }
+    </script>
+
+</head>
+<body onLoad="disableClick()">
+    <header>
+        <div class="user">
+            <img src="photo.jpeg" alt="" />
+            <h3 class="name">Vinaya Koli</h3>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#employment">Work Experience</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="menu" class="fas fa-bars"></div>
+    <section class="home" id="home">
+        <h3>Hello!</h3>
+        <h1>I'm<span> Vinaya Koli</span></h1>
+        <p>Welcome to my portfolio</p>
+
+        <a href="#about">
+            <button class="btn"> about me<i class="fas fa-user"></i></button>
+        </a>
+    </section>
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about</span> me </h1>
+
+        <div class="row">
+
+            <div class="info">
+                <h3> <span> Name : </span> Vinaya S Koli </h3>
+                <h3> <span> Qualification : </span> Master of Computer Applications </h3>
+                <h3> I am a post graduate in computer applications, currently working as Transaction Processing Associate at <a href="https://www.accenture.com/in-en">Accenture PLC</a></h3>
+                <h3>I am an inquisitive person and believe programming is more about problem solving and less coding,During masters, I have worked on various projects, some of them out of interest and some as part of curriculam. </h3>
+                <h3><a href="#portfolio">click here to have look</a></h3>
+                <h3> <span> SKILLS</span>  </h3>
+                <h3> <span> Language : </span> Python, JavaScript </h3>
+                <h3> <span> Tech Stack : </span> Django, MySQL</h3>
+                <h3> <span> Design : </span> HTML, CSS </h3>
+                <a href="#about"></a>
+                <a href="https://drive.google.com/file/d/1RjT8QZZgMYC9RFFLnVUGDQkp6x0VkCR_/view?usp=sharing"><button class="btn">download Resume<i class="fas fa-download"></i></button></a>
+                <i class="fa fa-download"></i>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="about" id="employment">
+
+        <h1 class="heading"> <span>My</span> Experience </h1>
+
+        <div class="row">
+
+            <div class="info">
+                <h3> <span>Current Designation : </span> Transaction Processing Associate at<a href="https://www.accenture.com/in-en"> Accenture PLC</a> </h3>
+                <h3>
+                    <span> Job Description : </span>As a “Transaction Processing Associate” my job function includes processing transactions for relevant projects in various systems and tracking tools, as well as mentor and coaching personnel to accomplish requirements of the project and perform all tasks accurately within the procedural guidelines and without errors.
+                </h3>
+                <h3>
+                    <span> Recognitions: </span>
+                </h3>
+                <h3>Won Best performer for the years 2019 and 2021.</h3>
+                <h3>
+                    Trained and mentored a team of 20 junior analysts, making sure each had strong process knowledge.
+                </h3>
+                <h3>
+                    Promoted as Subject Matter Expert for exceeding monthly KPI.
+
+                </h3>
+
+
+            </div>
+            </div>
+
+
+    </section>
+
+
+
+
+
+
+    <section class="education" id="education">
+
+        <h1 class="heading"> my <span>education</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2019</span>
+                <h3>Master of Computer Applications</h3>
+                <p>Cambridge Institute of Technology, Bangalore</p>
+                <p>76%</p>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2016</span>
+                <h3>Bachelor of Science</h3>
+                <p>Govt Arts and Science college, Karwar</p>
+                <p>73.39%</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2013</span>
+                <h3>PUC</h3>
+                <p>Divekar College of Commerce and Science, Karwar</p>
+                <p>61.33%</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2011</span>
+                <h3>S.S.L.C</h3>
+                <p>Hindu High School, Karwar</p>
+                <p>76.64%</p>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading"> my <span>projects</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Weather App</h3>
+                <img src="image1.png" alt="">
+            </div>
+            <div class="box">
+                <h3>Recruitment Model</h3>
+                <img src="image3.png" alt="">
+            </div>
+            <div class="box">
+                <h3>StopWatch</h3>
+                <img src="image 2.png" alt="">
+            </div>
+            </div>
+
+</section>
+            <section class="contact" id="contact">
+
+                <h1 class="heading"> <span>contact</span> me </h1>
+
+                <div class="row">
+
+                    <div class="content">
+
+                        <h3 class="title">contact info</h3>
+
+                        <div class="info">
+                            <h3> <i class="fas fa-envelope"></i><a href="skvinaya201@gmail.com">skvinaya201@gmail.com</a></h3>
+                            <h3> <i class="fas fa-phone"></i> +91-9901929940 </h3>
+                            <h3> <i class="fas fa-map-marker-alt"></i> #250,Gaongeri,Karwar,Karnataka - 581345. </h3>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+    </section>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/Script1.js"></script>
+
+</body>
+</html>
